@@ -1,0 +1,14 @@
+h1,h2
+{
+    color :cornflowerblue;
+}
+p 
+{
+    color: darkgray;
+    font-size: 18px;
+}
+.small
+{
+    font-size: 18px;
+    color: darkgray;
+}

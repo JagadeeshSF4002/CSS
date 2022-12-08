@@ -1,0 +1,91 @@
+/* Position Relative */ 
+.box1,.box2,.box3
+{
+    width: 200px;
+    height: 200px;
+    
+}
+.box1
+{
+    background-color: cornflowerblue;
+    position: relative;
+    left: 200px;
+}
+.box2
+{
+    background-color: coral;
+
+}
+.box3
+{
+    background-color: darkcyan;
+
+}
+/* Position Absolute */
+.box4,.box5,.box6
+{
+    width: 200px;
+    height: 200px;
+    
+}
+.box4
+{
+    background-color: cornflowerblue;
+    position: absolute;
+    left: 210px;
+}
+.box5
+{
+    background-color: coral;
+}
+.box6
+{
+    background-color: darkcyan;
+}
+/* Position Fixed */
+.box7,.box8,.box9
+{
+    width: 200px;
+    height: 200px;
+    
+}
+.box7
+{
+    background-color: cornflowerblue;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+.box8
+{
+    background-color: coral;
+}
+.box9
+{
+    background-color: darkcyan;
+}
+
+/* Position Sticky */
+
+.box10,.box11,.box12
+{
+    width: 200px;
+    height: 200px;
+    
+}
+.box10
+{
+    background-color: cornflowerblue;
+    position: sticky;
+    top: 0;
+}
+.box11
+{
+    background-color: coral;
+}
+.box12
+{
+    background-color: darkcyan;
+}
+
+

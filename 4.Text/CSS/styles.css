@@ -1,0 +1,25 @@
+.navContent
+{
+    text-align: right;
+}
+.Containers
+{
+    text-align: center;
+}
+h1
+{
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    background-color: rgb(231, 231, 154);
+}
+
+.Containers h1
+{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+p
+{
+    text-transform: capitalize;
+}

@@ -1,0 +1,45 @@
+body
+{
+  font-family: 'La Belle Aurore', cursive;
+}
+pre
+{
+    font-size: 18px;
+    font-variant: small-caps;
+    text-align: justify;
+}
+.side-bar ul
+{
+    list-style: none;
+    font-variant: small-caps;
+    float: left;
+    width: 33%;
+    background-color: #fef6ec;
+    margin:0px;
+    text-align: center;
+    padding: 25px 0px;
+}
+.side-bar ul li
+{
+    line-height: 2;
+}
+.aside-bar
+{
+    float: left;
+    width: 40%;
+}
+.side-content
+{
+    float: right;
+    width: 58%;
+}
+.side-content-left
+{
+    float: left;
+    width: 25%;
+}
+.side-content-right
+{
+    float: right;
+    width: 60%;
+}

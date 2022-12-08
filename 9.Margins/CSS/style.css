@@ -1,0 +1,44 @@
+body
+{
+    color: white;
+}
+h1
+{
+    color: cornflowerblue;
+    text-align: center;
+}
+.box
+{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+.box2
+{
+    width: 100px;
+    height: 100px;
+    margin: 10px 250px 40px 100px;
+    background-color: cornflowerblue;
+    box-sizing: border-box;
+}
+
+.box3
+{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 20px 200px;
+    box-sizing: border-box;
+}
+
+.box4
+{
+    width: 100px;
+    height: 100px;
+    background-color:brown;
+    margin: 20px 400px 40px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,18 @@
+body
+{
+    background-color: cornflowerblue;
+}
+@media (min-width:360px) and (max-width:520px) 
+{
+  body
+  {
+    background-color: green;
+  }
+}
+@media (min-width:992px) 
+{
+  body
+  {
+    background-color: red;
+  }
+}

@@ -1,0 +1,15 @@
+
+.container
+{
+    margin: 50px auto;
+    width: 400px;
+    height: 320px;
+    border: 10px dashed #333;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.container h1
+{
+    text-decoration:underline;
+}

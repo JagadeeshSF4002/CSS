@@ -1,0 +1,120 @@
+.Container 
+{
+    background-color:rgb(204, 228, 248);
+    background-image: -webkit-linear-gradient(left,rgb(35, 128, 203),rgb(143, 191, 230));
+    height: 600px;
+    padding:40px 0px;
+    box-sizing: border-box;
+   
+}
+.Container ul
+{
+    list-style: none;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.Container ul li 
+{
+    height: 70px;
+    width: 40%;
+    margin: 20px;
+    background-color: rgb(154, 188, 239);
+    border: 2px solid black;
+}
+.Container ul li:hover
+{
+    background-color: white;
+    transition: all 0.5s ease-out;
+    border-radius: 4px 28px 18px 4px;
+    border-style:  inset;
+}
+h1
+{
+    background-color: aliceblue;
+    text-align: center;
+    font-variant: small-caps;
+    text-shadow: 6px 6px 0px rgb(118, 170, 202);
+    font-size: 48px;
+}
+.Container .nav ul li a
+{
+    text-decoration: none;
+}
+.nav li a.Youtube
+{
+    background: url('../Images/ico-removebg-preview.png') no-repeat  0 0;
+    display: block;
+    margin-left:25px ;
+    padding: 10px 80px 20px 70px;
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(5, 24, 40);
+}
+.nav li a.Whatsapp
+{
+    background: url('../Images/ico-removebg-preview.png') no-repeat  0 -77px;
+    display: block;
+    margin: 10px;
+    padding: 20px 60px 20px 70px;
+    text-decoration: none;  
+    color: rgb(5, 24, 40);
+}
+.nav li a.Facebook
+{
+    background: url('../Images/ico-removebg-preview.png') no-repeat  -1px -146px;
+    display: block;
+    margin: 10px;
+    padding: 20px 60px 20px 70px;
+    text-decoration: none;
+    color: rgb(5, 24, 40);
+}
+.nav li a.Instagram
+{
+    background: url('../Images/ico-removebg-preview.png') no-repeat  -1px -213px;
+    display: block;
+    margin: 10px;
+    padding: 20px 60px 20px 70px;
+    text-decoration: none;
+    color: rgb(5, 24, 40);
+}
+
+.animate
+{
+    float: left;
+    animation: animate 1s infinite;
+}
+.animate2
+{
+    float: right;
+    animation: animate2 1s infinite;
+}
+
+@keyframes animate
+{
+    /* 0% {-webkit-transform: rotate(0deg);} */
+    100%{-webkit-transform: rotate(-360deg);}
+}
+@keyframes animate2
+{
+    /* 0% {-webkit-transform: rotate(0deg);} */
+    100%{-webkit-transform: rotate(360deg);}
+}
+.flyOver
+{
+    animation: animate3 5s infinite;
+}
+.flyOver2 
+{
+    float: right;
+    animation: animate4 5s infinite;
+}
+@keyframes animate3
+{
+    0%{-webkit-transform: translate(0,0);}
+    100%{-webkit-transform:translate(150px,-450px);}
+}
+@keyframes animate4 
+{
+    0%{-webkit-transform: translate(0,0);}
+    100%{-webkit-transform:translate(0px,-650px);}  
+}
